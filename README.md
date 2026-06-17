@@ -12,6 +12,11 @@ the steps, done. Built for agents and teammates getting their own tooling runnin
   schema/RLS changes the Cloud UI blocks), and deploy — all via a one-time browser login. No API
   keys.
 
+## Ready-made files
+
+- **[`.mcp.json`](.mcp.json)** — drop this into the root of your own project and Claude Code will
+  offer to enable the Lovable MCP server (you still do the one-time `/mcp → Authenticate` login).
+
 _More coming (Linear, Semrush, and other connectors)._
 
 ---

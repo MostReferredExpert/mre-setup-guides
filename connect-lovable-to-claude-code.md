@@ -55,11 +55,12 @@ That's it. ✅
 
 ## Option B — drop-in project file (good for sharing with a team)
 
-Instead of the command, you can commit a file named **`.mcp.json`** to the root of your project.
+Instead of the command, you can put a file named **`.mcp.json`** in the root of your project.
 When you open Claude Code in that folder it detects the file and offers to enable the server;
 you then authenticate the same way (`/mcp` → lovable → Authenticate).
 
-Create `.mcp.json` with exactly this:
+Grab the ready-made [`.mcp.json`](.mcp.json) from this repo and drop it into your project root,
+or create it yourself with exactly this:
 
 ```json
 {
