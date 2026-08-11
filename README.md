@@ -11,6 +11,11 @@ the steps, done. Built for agents and teammates getting their own tooling runnin
   Lovable's official MCP server so it can read your project, query your database (including the
   schema/RLS changes the Cloud UI blocks), and deploy — all via a one-time browser login. No API
   keys.
+- **[Connect Your Lofty to Claude Code](connect-lofty-to-claude-code.md)** — build a small MCP
+  server so Claude can read your own Lofty CRM in plain English (this week's leads, a lead's notes,
+  a listing search). Uses the API key already in your Lofty settings, read-only first, security
+  rules up front. A [developer-key variant](connect-lofty-to-claude-code-developer-key.md) is linked
+  inside for accounts that need it.
 
 ## Ready-made files
 
@@ -18,6 +23,10 @@ the steps, done. Built for agents and teammates getting their own tooling runnin
   offer to enable the Lovable MCP server (you still do the one-time `/mcp → Authenticate` login).
 
 _More coming (Linear, Semrush, and other connectors)._
+
+> Handling an API key that can read your CRM? Treat it like your online-banking login: it lives in a
+> local `.env` that is never committed, start read-only, and reset it in your tool if it ever leaks.
+> Each guide says this where it matters.
 
 ---
 
