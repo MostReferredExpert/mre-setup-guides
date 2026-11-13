@@ -12,6 +12,9 @@ If your account does not show an API key where this guide points, or the key doe
 a second path in the companion guide, [connect-lofty-to-claude-code-developer-key.md](connect-lofty-to-claude-code-developer-key.md), which uses
 Lofty's developer portal. Start here first; it is the simplest route for a solo agent.
 
+This is the connection I teach in the free weekly Lofty Master Class
+([LoftyMasterClass.com](https://LoftyMasterClass.com)).
+
 ---
 
 ## What you are building, in plain terms

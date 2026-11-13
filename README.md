@@ -31,3 +31,9 @@ _More coming (Linear, Semrush, and other connectors)._
 ---
 
 Free to use and share.
+
+---
+
+Maintained by Katie Van Nes of Most Referred Expert. The Lofty setups get taught live and free
+every week at [LoftyMasterClass.com](https://LoftyMasterClass.com), and the recordings live in the
+Most Referred Expert Community.
