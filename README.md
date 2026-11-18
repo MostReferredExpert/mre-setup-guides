@@ -17,6 +17,13 @@ the steps, done. Built for agents and teammates getting their own tooling runnin
   rules up front. A [developer-key variant](connect-lofty-to-claude-code-developer-key.md) is linked
   inside for accounts that need it.
 
+## Skills
+
+- **[Video Edit](video-edit/README.md)** — a ready-made agent skill that cuts, resizes, trims,
+  thumbnails and publishes an mp4, from a Zoom export to a finished file, with a human review
+  gate before anything reaches a public or member-facing surface. Install and setup are in the
+  folder's README; the skill itself is [SKILL.md](video-edit/SKILL.md).
+
 ## Ready-made files
 
 - **[`.mcp.json`](.mcp.json)** — drop this into the root of your own project and Claude Code will
